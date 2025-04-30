@@ -1,6 +1,6 @@
+// sily bon
 #include <Geode/Geode.hpp>
 #include <Geode/modify/GameManager.hpp>
-
 using namespace geode::prelude;
 
 class $modify(MyMenuLayer, GameManager) {
@@ -14,7 +14,7 @@ class $modify(MyMenuLayer, GameManager) {
         return result;
     }
 
-    bool isColorUnlocked(int p0, ColorType p1) {
+    bool isColorUnlocked(int p0, int p1) {
         bool result = GameManager::isColorUnlocked(p0, p1);
 
         if (Mod::get()->getSettingValue<bool>("icon-hack")) {
