@@ -11,6 +11,6 @@ class $modify(GameManager) {
     }
     bool isColorUnlocked(int _id, UnlockType _type) {
         if (GameManager::isColorUnlocked(_id, _type)) return true;
-        return Hacks::isHackEnabled("Icon Bypass");
+        return Mod::get()->getSettingValue<bool>("icon-hack")) {;
     }
 };
