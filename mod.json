@@ -6,10 +6,10 @@
     "mac": "2.2074",
     "ios": "2.2074"
   },
-  "id": "mystical.icon_hack",
+  "id": "mystical433.icon_hack",
   "name": "Icon Hack",
   "version": "v1.0.0",
-  "developer": "Mystical",
+  "developer": "Mystical433",
   "description": "",
   "settings": {
     "Hack": {
@@ -19,7 +19,7 @@
     "icon-hack": {
       "name": "Icon Hack",
       "type": "bool",
-      "description": "icons",
+      "description": "c",
       "default": false
     }
   }
